@@ -16,8 +16,9 @@
   </head>
   <body>
     {{content-for "body"}}
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAd0afjnbUZGm0fRodhG72hLYroTSPjmOk"
-    async defer></script>
+    
+    {{content-for "google-maps"}}
+
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/election.js"></script>
 

@@ -1,9 +1,21 @@
 'use strict';
-
+// AIzaSyAd0afjnbUZGm0fRodhG72hLYroTSPjmOk
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const env = process.env.EMBER_ENV;
+const config = require('./config/environment')(env);
 
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
+
+    inlineContent: {
+      'google-maps': {
+        content: '<script src="https://maps.googleapis.com/maps/api/js?key={KEY}" async defer></script>',
+        postProcess: function(content) {
+          return content.replace(/\{KEY\}/g, config['google-maps'].key);
+        }
+      }
+    },
+
     postcssOptions: {
       compile: {
         plugins: [
