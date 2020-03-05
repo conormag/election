@@ -1,5 +1,5 @@
 'use strict';
-// AIzaSyAd0afjnbUZGm0fRodhG72hLYroTSPjmOk
+
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 const env = process.env.EMBER_ENV;
 const config = require('./config/environment')(env);
