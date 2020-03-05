@@ -7,6 +7,8 @@ A short introduction of this app could easily go here.
 ## Resources 
 * [galway 1st pref tally](https://docs.google.com/spreadsheets/u/1/d/1uyakObUyMzTrAFXaRIvf-U8sK4-Vg0A8hj-TGNsb60I/htmlview?usp=sharing&sle=true#)
 * [Boundary committee](http://boundarycommittee.ie)
+* [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
+* [Maps geojson](https://data.gov.ie/dataset/administrative-areas-osi-national-statutory-boundaries-generalised-20m)
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
